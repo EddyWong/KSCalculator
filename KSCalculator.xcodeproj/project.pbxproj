@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2DFB131B8D1F980004D13C /* ExpressionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DFB121B8D1F980004D13C /* ExpressionParser.swift */; };
 		3D972B1B1B8983900076B6F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D972B1A1B8983900076B6F5 /* AppDelegate.swift */; };
 		3D972B1D1B8983900076B6F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D972B1C1B8983900076B6F5 /* ViewController.swift */; };
 		3D972B201B8983900076B6F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D972B1E1B8983900076B6F5 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D2DFB121B8D1F980004D13C /* ExpressionParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionParser.swift; sourceTree = "<group>"; };
 		3D972B151B8983900076B6F5 /* KSCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D972B191B8983900076B6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D972B1A1B8983900076B6F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				3D972B1A1B8983900076B6F5 /* AppDelegate.swift */,
 				3D972B1C1B8983900076B6F5 /* ViewController.swift */,
 				3D972B1E1B8983900076B6F5 /* Main.storyboard */,
+				3D2DFB121B8D1F980004D13C /* ExpressionParser.swift */,
 				3D972B211B8983900076B6F5 /* Images.xcassets */,
 				3D972B231B8983900076B6F5 /* LaunchScreen.xib */,
 				3D972B181B8983900076B6F5 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D972B1D1B8983900076B6F5 /* ViewController.swift in Sources */,
+				3D2DFB131B8D1F980004D13C /* ExpressionParser.swift in Sources */,
 				3D972B1B1B8983900076B6F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				3D972B361B8983900076B6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D972B371B8983900076B6F5 /* Build configuration list for PBXNativeTarget "KSCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				3D972B391B8983900076B6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
